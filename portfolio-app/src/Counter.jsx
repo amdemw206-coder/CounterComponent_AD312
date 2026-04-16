@@ -28,10 +28,10 @@ export function Counter() {
     return (
         <>
             <p>{count}</p>
-            <button onClick={increment}>+1</button>
-            <button onClick={delay_inc}>+1 (delay)</button>
-            <button onClick={batch_inc}>try to increment +2 using multiple state updates incorrectly</button>
-            <button onClick={increment_2}>+2 but correct</button>
+            <button onClick={increment}>Increment</button>
+            <button onClick={delay_inc}>Increment After Delay</button>
+            <button onClick={batch_inc}>Increment Twice</button>
+            <button onClick={increment_2}>Correct Increment Twice</button>
         </>
     )
 
